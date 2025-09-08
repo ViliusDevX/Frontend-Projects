@@ -37,12 +37,11 @@ Each project is organized into its own folder and may include:
 
 ## 🧭 Upcoming Projects
 
-1. To-Do List
-2. Calculator
-3. Form Validator
-4. Quiz App
-5. Weather App (API-based)
-6. Memory Game (Card Flip)
+1. Calculator
+2. Form Validator
+3. Quiz App
+4. Weather App (API-based)
+5. Memory Game (Card Flip)
 
 ---
 
