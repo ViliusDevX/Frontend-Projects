@@ -29,7 +29,7 @@ Each project is organized into its own folder and may include:
 
 | Project | Tech | Description |
 | :--- | :--- | :--- |
-|  | HTML • CSS • JS | . |
+| **To-Do List** | HTML • CSS • JS | Add/edit/complete/delete tasks, filter views, saves to localStorage. |
 
 *(More projects will be added as I continue learning and building!)*
 
@@ -49,7 +49,12 @@ Each project is organized into its own folder and may include:
 
 | Category | Skills & Tools |
 | :--- | :--- |
-|  |  |
+| **🖼️ Frontend Development** | Semantic HTML5 • Accessible forms • ARIA attributes (`aria-label`, `aria-live`) |
+| **🎨 Styling** | CSS3 • Flexbox/Grid layout • Responsive design • Hover/active states • Theming with CSS variables |
+| **⚡ JavaScript** | DOM manipulation • Event delegation • Form handling • Keyboard events (Enter/Escape) • State management |
+| **💾 Data Persistence** | localStorage for saving tasks across sessions |
+| **🔒 Security & Accessibility** | Escaping user input (XSS prevention) • Screen reader support • Polite live updates |
+| **🚀 Workflow** | Modular file structure (`index.html`, `style.css`, `app.js`) • Git/GitHub version control |
 
 ---
 
