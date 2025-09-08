@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+:root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --accent:#60a5fa; --ok:#22c55e; --danger:#ef4444; }
+html, body { height: 100%; }
+body {
+  margin: 0; font: 16px/1.4 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(1200px 800px at 10% 0%, #1f2937, #0b1222), var(--bg); color: var(--text);
+  display: grid; place-items: center; padding: 24px;
+}
+.container {
+  width: min(720px, 92vw); background: rgba(17,24,39,.7); backdrop-filter: blur(6px);
+  border: 1px solid #1f2937; border-radius: 16px; padding: 24px 20px; box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+h1 { margin: 0 0 16px; font-size: 28px; letter-spacing: .3px; }
+
+form { display: grid; grid-template-columns: 1fr auto; gap: 10px; margin-bottom: 12px; }
+input[type="text"] {
+  padding: 12px 14px; border-radius: 12px; border: 1px solid #273041; background: #0b1222; color: var(--text);
+}
+button {
+  padding: 10px 14px; border-radius: 10px; border: 1px solid #273041; background: #0b1222;
+  color: var(--text); cursor: pointer; transition: transform .04s ease, background .2s ease, border-color .2s;
+}
+button:hover { background: #111a2c; border-color: #2f3a50; }
+button:active { transform: translateY(1px); }
+
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 14px; }
+.controls .active { outline: 2px solid var(--accent); }
+
+#todo-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.todo {
+  display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center;
+  padding: 10px 12px; border: 1px solid #1f2937; background:#0b1222; border-radius: 12px;
+}
+.todo input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--ok); }
+.todo label { overflow-wrap: anywhere; }
+.todo.completed label { color: var(--muted); text-decoration: line-through; }
+.todo .actions { display: flex; gap: 6px; }
+.todo .icon-btn { padding: 6px 8px; font-size: 12px; }
+.icon-edit { border-color:#334155; }
+.icon-delete { border-color:#3b1d20; color:#fecaca; }
+.icon-save { border-color:#23412d; }
+.icon-cancel { border-color:#3a3a3a; }
+
+.footer { display:flex; justify-content: space-between; margin-top: 12px; color: var(--muted); font-size: 14px; }
+
+.edit-input {
+  width: 100%; padding: 8px 10px; border-radius: 10px; border: 1px solid #273041; background: #0b1222; color: var(--text);
+}
