@@ -32,16 +32,21 @@ Each project is organized into its own folder and may include:
 | **To-Do List** | HTML • CSS • JS | Add/edit/complete/delete tasks, filter views, saves to localStorage. |
 | **Calculator** | HTML • CSS • JS | Perform basic math operations with keyboard support and responsive design. |
 
-*(More projects will be added as I continue learning and building!)*
+*(More projects will be added as I continue learning and building.)*
 
 ---
 
 ## 🧭 Upcoming Projects
 
-1. Form Validator
-2. Quiz App
-3. Weather App (API-based)
-4. Memory Game (Card Flip)
+1. Password Generator
+2. Countdown Timer
+3. Memory Game
+4. Quiz App
+5. Typing Speed Test
+6. Weather App
+7. Recipe Finder
+8. Drawing App
+9. Music Player
 
 ---
 
