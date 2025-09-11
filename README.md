@@ -30,6 +30,7 @@ Each project is organized into its own folder and may include:
 | Project | Tech | Description |
 | :--- | :--- | :--- |
 | **To-Do List** | HTML • CSS • JS | Add/edit/complete/delete tasks, filter views, saves to localStorage. |
+| **Calculator** | HTML • CSS • JS | Perform basic math operations with keyboard support and responsive design. |
 
 *(More projects will be added as I continue learning and building!)*
 
@@ -37,11 +38,10 @@ Each project is organized into its own folder and may include:
 
 ## 🧭 Upcoming Projects
 
-1. Calculator
-2. Form Validator
-3. Quiz App
-4. Weather App (API-based)
-5. Memory Game (Card Flip)
+1. Form Validator
+2. Quiz App
+3. Weather App (API-based)
+4. Memory Game (Card Flip)
 
 ---
 
@@ -60,5 +60,5 @@ Each project is organized into its own folder and may include:
 
 ## 🚀 Let's Connect
 
-I’m a student at **TECHIN**, learning and building projects in web development.  
+I'm a student at **TECHIN**, learning and building projects in web development.  
 If you have suggestions, feedback, or collaboration ideas, feel free to reach out💬
