@@ -9,10 +9,10 @@ It’s where I practice the fundamentals of **HTML, CSS, and JavaScript** while 
 - Document my progress as I grow from beginner to advanced.  
 
 ## 🧰 What's Inside
-Each subfolder in `/TECHIN/` usually includes:  
+Each subfolder in `TECHIN/` usually includes:  
 - 🤖 HTML
 - 🎨 CSS
-- ⚡ JavaScrip
+- ⚡ JavaScript
 - 📝 Notes or instructions related to the lesson  
 
 ## 🚀 Notes
